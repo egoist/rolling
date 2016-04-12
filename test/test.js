@@ -9,7 +9,8 @@ test.beforeEach(() => {
 test('main', async t => {
   try {
     const args = {
-      entry: './fixture.js'
+      entry: './fixture.js',
+      dest: 'bundle.js'
     }
     await build(args)
     const file = require('./bundle')

@@ -19,7 +19,7 @@ $ npm install -g rolling
 # and outputs bundled file to `./dist/bundle.js`
 $ rolling build
 
-$ custom entry and dest
+# custom entry and dest
 $ rolling build -e ./lib/index.js -d ./index.js
 ```
 

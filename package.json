@@ -10,6 +10,7 @@
     "url": "github.com/egoist"
   },
   "bin": "cli.js",
+  "main": "index.js",
   "engines": {
     "node": ">=4"
   },
