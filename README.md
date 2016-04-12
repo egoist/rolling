@@ -1,6 +1,6 @@
 # rolling [![NPM version](https://img.shields.io/npm/v/rolling.svg)](https://npmjs.com/package/rolling) [![NPM downloads](https://img.shields.io/npm/dm/rolling.svg)](https://npmjs.com/package/rolling) [![Build Status](https://img.shields.io/circleci/project/egoist/rolling/master.svg)](https://circleci.com/gh/egoist/rolling)
 
-`Rollup` and `Webpack` are bundlers for different purposes, I mainly use `Webpack` to bundle web apps, and use `Rollup` to bundle JavaScript libraries. Using `Rollup` to bundle `CommonJS` or `ES6 module` format libraries ends up with clean, readable code, so just try it out!
+[Rollup](https://github.com/rollup/rollup) and [Webpack](https://github.com/webpack/webpack) are bundlers for different purposes, I mainly use `Webpack` to bundle web apps, and use `Rollup` to bundle JavaScript libraries. Using `Rollup` to bundle `CommonJS` or `ES6 module` format libraries ends up with clean, readable code, so just try it out!
 
 ## Install
 
@@ -20,7 +20,10 @@ $ npm install -g rolling
 $ rolling build
 
 # custom entry and dest
-$ rolling build -e ./lib/index.js -d ./index.js
+$ rolling build --entry ./lib/index.js --dest ./index.js
+
+# inline all required modules from `node_modules`
+$ rolling build --inline
 ```
 
 **You are about to build the entry file and auto-rebuild during development:**

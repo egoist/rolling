@@ -8,6 +8,7 @@ cli
   .option('-e, --entry [entry]', 'Entry file')
   .option('-f, --format [format]', 'Bundle format')
   .option('-d, --dest [dest]', 'Dest path')
+  .option('-i, --inline', 'Inline required modules')
   .action(build)
 
 cli.parse(process.argv)
