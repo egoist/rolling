@@ -2,7 +2,7 @@
 
 [Rollup](https://github.com/rollup/rollup) and [Webpack](https://github.com/webpack/webpack) are bundlers for different purposes, I mainly use `Webpack` to bundle web apps, and use `Rollup` to bundle JavaScript libraries. Using `Rollup` to bundle `CommonJS` or `ES6 module` format libraries ends up with clean, readable code, so just try it out!
 
-However, it's not necessary to bundle all JS files into one file (I still doubt that now), just a one-command `babel src --out-dir lib` is ok as well. This repo is just for fun.
+However, it's not necessary to bundle all JS files into one file (I still doubt that now), just a one-command `babel src --out-dir lib` is ok as well. This repo is just for fun. I know there's a common use case for using `Rollup`, that is, to bundle `UMD/IIFE` format files to run in browser. 
 
 ## Install
 
