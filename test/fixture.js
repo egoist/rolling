@@ -1,2 +1,2 @@
-export * as rollup from 'rollup'
+export {a} from './fixture-a'
 export const foo = () => 'bar'
