@@ -9,6 +9,7 @@ cli
   .option('-f, --format [format]', 'Bundle format')
   .option('-d, --dest [dest]', 'Dest path')
   .option('-i, --inline', 'Inline required modules')
+  .option('-s, --skip', 'Never inline these modules')
   .action(build)
 
 cli.parse(process.argv)
