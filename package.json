@@ -1,0 +1,45 @@
+{
+  "name": "rolling",
+  "version": "0.0.0",
+  "description": "A preset Rollup workflow.",
+  "license": "MIT",
+  "repository": "egoist/rolling",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo index.js lib/*.js && ava test/test*.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "keywords": [
+    "rollup",
+    "bundle",
+    "webpack"
+  ],
+  "devDependencies": {
+    "ava": "latest",
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "commander": "^2.9.0",
+    "rollup": "^0.25.8",
+    "rollup-plugin-babel": "^2.4.0"
+  }
+}
