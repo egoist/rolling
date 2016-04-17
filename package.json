@@ -33,7 +33,10 @@
   },
   "xo": {
     "semicolon": false,
-    "space": 2
+    "space": 2,
+    "rules": {
+      "operator-linebreak": ["error", "before"]
+    }
   },
   "dependencies": {
     "babel-preset-es2015-rollup": "^1.1.1",
