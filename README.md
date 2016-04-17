@@ -14,7 +14,7 @@ $ npm install -g rolling
 
 ## Usage
 
-**You are about to bundle the library:**
+**Build:**
 
 ```bash
 # it looks for `./src/index.js` by default
@@ -28,9 +28,10 @@ $ rolling build --entry ./lib/index.js --dest ./index.js
 $ rolling build --inline
 ```
 
-**You are about to build the entry file and auto-rebuild during development:**
+**Watch the builds:**
 
 ```bash
+# not available yet
 $ rolling watch
 ```
 

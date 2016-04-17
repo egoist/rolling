@@ -11,6 +11,7 @@ cli
   .option('-i, --inline', 'Inline required modules')
   .option('-s, --skip', 'Never inline these modules')
   .option('-j, --jsnext', 'Resolve jsnext field when inline modules')
+  .option('--babelrc', 'User local babelrc file')
   .action(build)
 
 cli.parse(process.argv)
