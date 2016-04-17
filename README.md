@@ -6,8 +6,6 @@ However, it's not necessary to bundle all JS files into one file (I still doubt 
 
 ## Install
 
-Not ready yet. **WIP**
-
 ```bash
 $ npm install -g rolling
 ```
