@@ -7,6 +7,7 @@ cli
   .command('build')
   .option('-e, --entry [entry]', 'Entry file')
   .option('-f, --format [format]', 'Bundle format')
+  .option('-n, --name [moduleName]', 'Bundled module name')
   .option('-d, --dest [dest]', 'Dest path')
   .option('-i, --inline', 'Inline required modules')
   .option('-s, --skip', 'Never inline these modules')
