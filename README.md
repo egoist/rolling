@@ -17,28 +17,24 @@ $ npm install -g rolling
 ```bash
 # it looks for `./src/index.js` by default
 # and outputs bundled file to `./dist/bundle.js`
-$ rolling build
+$ rolling src.js --out bundle.js
 
-# custom entry and dest
-$ rolling build --entry ./lib/index.js --dest ./index.js
-
-# inline all required modules from `node_modules`
-$ rolling build --inline
+# Include required modules from node_modules directory
+# into the bundled file
+$ rolling --include
 ```
 
-**Watch the builds:**
+**Watch input:**
 
 ```bash
 # not available yet
-$ rolling watch
+$ rolling --watch
 ```
 
-**You want more configs:**
+**Help:**
 
 ```bash
 $ rolling --help
-$ rolling build --help
-$ rolling watch --help
 ```
 
 **Babel:**
@@ -47,7 +43,7 @@ If you use some ES2015+ features that require `babel-runtime`, install it in you
 
 ```bash
 $ cd my-project
-$ npm install babel-runtime@5 --save
+$ npm install babel-runtime --save
 ```
 
 ## API
@@ -56,7 +52,8 @@ $ npm install babel-runtime@5 --save
 import {build, watch} from 'rolling'
 
 const options = {
-  entry: './path/to/entry.js',
+  input: ...,
+  output: ...
   // more configs go here
 }
 

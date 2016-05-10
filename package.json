@@ -43,8 +43,9 @@
   },
   "dependencies": {
     "babel-preset-es2015-rollup": "^1.1.1",
-    "babel-preset-stage-0": "^6.5.0",
-    "commander": "^2.9.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "cac": "^1.0.0",
+    "co": "^4.6.0",
     "rollup": "^0.25.8",
     "rollup-plugin-babel": "^2.4.0",
     "rollup-plugin-commonjs": "^2.2.1",
