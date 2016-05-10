@@ -24,9 +24,11 @@ $ rolling --include
 
 **Watch input:**
 
+Currently Rollup does not support incremental builds, so use any `watch utilify` to do this for now, such as `onchange`:
+
 ```bash
-# not available yet
-$ rolling --watch
+$ npm install -g onchange
+$ onchange ./src -- rolling
 ```
 
 **Help:**
