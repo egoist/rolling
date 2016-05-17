@@ -1,6 +1,6 @@
 {
   "name": "rolling",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A preset Rollup workflow.",
   "license": "MIT",
   "repository": "egoist/rolling",
