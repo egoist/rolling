@@ -46,7 +46,7 @@ $ cd my-project
 $ npm install babel-runtime --save
 ```
 
-## Reciped
+## Recipes
 
 ### Alias
 
