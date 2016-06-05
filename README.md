@@ -46,6 +46,28 @@ $ cd my-project
 $ npm install babel-runtime --save
 ```
 
+## Reciped
+
+### Alias
+
+In `package.json`:
+
+```json
+{
+  "rolling": {
+    "alias": {
+      "models": "{cwd}/src/models"
+    }
+  }
+}
+```
+
+Then just use this short-hand:
+
+```js
+import UserModel from 'models/user'
+```
+
 ## API
 
 ```javascript
